@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcousticSystems", "AcousticSystems\AcousticSystems.csproj", "{EBFADC5B-8979-4EAA-9AF1-F3E53D1A2342}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBFADC5B-8979-4EAA-9AF1-F3E53D1A2342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBFADC5B-8979-4EAA-9AF1-F3E53D1A2342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBFADC5B-8979-4EAA-9AF1-F3E53D1A2342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBFADC5B-8979-4EAA-9AF1-F3E53D1A2342}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5ED335E-EF02-48E3-9E5A-C16AB16D71ED}
+	EndGlobalSection
+EndGlobal

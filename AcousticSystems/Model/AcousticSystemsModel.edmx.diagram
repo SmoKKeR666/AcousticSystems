@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d39a1bd07cf04886b79f1b3e11aa684b" Name="Diagram1">
+        <EntityTypeShape EntityType="AcousticSystemsModel.Brands" Width="1.5" PointX="0.75" PointY="4.125" />
+        <EntityTypeShape EntityType="AcousticSystemsModel.Clients" Width="1.5" PointX="3.75" PointY="7.25" />
+        <EntityTypeShape EntityType="AcousticSystemsModel.Models" Width="1.5" PointX="3.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AcousticSystemsModel.Orders" Width="1.5" PointX="6" PointY="3.25" />
+        <EntityTypeShape EntityType="AcousticSystemsModel.Products" Width="1.5" PointX="3" PointY="3.5" />
+        <AssociationConnector Association="AcousticSystemsModel.FK_Orders_Brands" />
+        <AssociationConnector Association="AcousticSystemsModel.FK_Products_Brands" />
+        <AssociationConnector Association="AcousticSystemsModel.FK_Orders_Clients" />
+        <AssociationConnector Association="AcousticSystemsModel.FK_Orders_Models" />
+        <AssociationConnector Association="AcousticSystemsModel.FK_Products_Models" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
